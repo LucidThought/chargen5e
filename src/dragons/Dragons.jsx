@@ -48,8 +48,8 @@ class Dragons extends React.Component {
         document.title = "D&D Character Mapper";
 
         return(
-            <div>
-                <Container className="dd_main">
+            <div style={{padding: '20px'}}>
+                <Container>
                     <Row>
                         <Col md={6}>
                             <RaceSelector 
